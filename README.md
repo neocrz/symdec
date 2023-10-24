@@ -1,4 +1,4 @@
-# Análise Semantica de Sintomas e Frequência de Termos para Diagnóstico Médico
+# symdec
 
 O presente projeto propõe um código para análise de sintomas especificados pelo paciente, a fim de verificar a probabilidade de relações com certas doenças através da realização de análise de term frequency com base em um dataset de doenças disponível no [Kaggle](https://www.kaggle.com/datasets/niyarrbarman/symptom2disease/data). 
 

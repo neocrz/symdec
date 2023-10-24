@@ -33,3 +33,8 @@ python -m venv venv
 ```console
 pip install -r requirements.txt
 ```
+
+5. Execute e entre com a string que descreve os sintomas (em inglês):
+```
+python main.py
+```

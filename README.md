@@ -15,7 +15,7 @@ A ferramenta funcionará da seguinte forma:
 Para utilizar o programa: 
 1. clone o repositório:
 ```console
-git clone https://github.com/neocrz/
+git clone https://github.com/neocrz/symdec
 ```
 
 2. Obtenha o arquivo `Symptom2Disease.csv` no site do [Kaggle](https://www.kaggle.com/datasets/niyarrbarman/symptom2disease/data) e coloque na pasta `data`

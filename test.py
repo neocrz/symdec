@@ -10,7 +10,7 @@ Symdec.load()
 query = "I've been experiencing intense itching all over my skin, and it's driving me crazy."
 
 result = Symdec.run(query)
-
+print(f"Query: {query}")
 print("\nDoenças ordenadas através da similaridade da descrição dos sintomas:")
 
 

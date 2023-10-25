@@ -10,6 +10,17 @@ A ferramenta funcionará da seguinte forma:
 - O algoritmo irá retornar uma sequência ordenada de doenças e a probabilidade delas.
 - O usuário irá tomar os resultados para ajudá-lo na tomada de decisão.
 
+## Observações
+### Dataset
+Para utilização de um dataset próprio, é necessário utilizar um arquivo csv que contenha as colunas:
+- `label`: contendo o nome das doenças.
+- `text`: contendo descrição/relato dos sintomas.
+
+### Load
+
+Realizada análise dos resultados, verificou-se que a união das descrições para uma única doença pode levar a inconsistências na avaliação pelo algoritmo. Optou-se por disponibilizar duas funções de `load`:
+- `load` carrega as doenças e **não faz** a união de descrição para doenças repetidas.
+- `load_union` carrega as doenças e **faz** a união de descrição para doenças repetidas.
 
 ## Instalação
 Para utilizar o programa: 
@@ -26,6 +37,9 @@ python -m venv venv
 
 # windows 
 .\venv\Scripts\activate
+
+# Linux
+source venv/bin/activate
 ```
 
 4. Instale as dependências python
@@ -34,7 +48,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-5. Execute e entre com a string que descreve os sintomas (em inglês):
+5. Analize o código exemplo `test.py` ou execute-o:
 ```
-python main.py
+python test.py
 ```
